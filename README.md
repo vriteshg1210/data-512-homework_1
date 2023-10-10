@@ -34,7 +34,7 @@ In this project, we will use a Google Colab environment to run a Python notebook
 ## Documentaion
 The project follows the recommended procedures for replication and documentation:
 
-1)Google Colab: Detailed explanations of the steps involved in data collection, processing, and analysis.
+1)Google Colab: The notebook created in this project is an extension of (https://drive.google.com/file/d/1XjFhd3eXx704tcdfQ4Q1OQn0LWKCRNJm/view?usp=sharing) and this sample code is licensed [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
 2)README File (this file): Gives a general description of the project, outlining its objectives, data sources, data processing procedures, and reproducibility standards.
 
