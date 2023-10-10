@@ -53,14 +53,16 @@ This project is open-source and follows the MIT License. You are free to use and
     academy_monthly_cummulative_<start201501>-<end202309>.json
 6) Create Dataframes from the list of dictionaries created during the previous activity.
 7)	Use these DataFrames to plot 3 visualizations:
-    Maximum Average and Minimum Average - time series for the articles that have the highest average monthly page requests   
-    and the lowest average monthly page requests for desktop access and mobile access. 
-    Top 10 Peak Page Views - time series for the top 10 article pages by largest (peak) page views over the entire time by 
-    access type. We first find the month for each article that contains the highest (peak) page views, and then order the 
+    a) Maximum Average and Minimum Average - time series for the articles that have the highest average monthly page 
+    requests and the lowest average monthly page requests for desktop access and mobile access.
+  	
+    b) Top 10 Peak Page Views - time series for the top 10 article pages by largest (peak) page views over the entire time 
+    by access type. We first find the month for each article that contains the highest (peak) page views, and then order the 
     articles by these peak values. The graph contains the top 10 for desktop and the top 10 for mobile access (20 lines).
-    Fewest Months of Data - The third graph shows pages that have the fewest months of available data. These are relatively 
-   short time series and contain a set of the most recent Academy Award winners. The graph shows the 10 articles with the 
-   fewest months of data for desktop access and the 10 articles with the fewest months of data for mobile access.
+    
+    c)Fewest Months of Data - The third graph shows pages that have the fewest months of available data. These are 
+    relatively short time series and contain a set of the most recent Academy Award winners. The graph shows the 10 articles 
+    with the fewest months of data for desktop access and the 10 articles with the fewest months of data for mobile access.
 
 ## Errors handled
 The parameter safe='' was added to the urllib.parse.quote function so that it is able to handle cases like movie name 'Victor/Victoria' 
