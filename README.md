@@ -34,7 +34,7 @@ In this project, we will use a Google Colab environment to run a Python notebook
 ## Documentaion
 The project follows the recommended procedures for replication and documentation:
 
-1)Jupyter Notebook(s): Detailed explanations of the steps involved in data collection, processing, and analysis.
+1)Google Colab: Detailed explanations of the steps involved in data collection, processing, and analysis.
 
 2)README File (this file): Gives a general description of the project, outlining its objectives, data sources, data processing procedures, and reproducibility standards.
 
@@ -61,6 +61,10 @@ This project is open-source and follows the MIT License. You are free to use and
     Fewest Months of Data - The third graph shows pages that have the fewest months of available data. These are relatively 
    short time series and contain a set of the most recent Academy Award winners. The graph shows the 10 articles with the 
    fewest months of data for desktop access and the 10 articles with the fewest months of data for mobile access.
+
+## Errors handled
+The parameter safe='' was added to the urllib.parse.quote function so that it is able to handle cases like movie name 'Victor/Victoria' 
+and does not give an error
 
 ## Output Files
 The project generates three JSON files:
